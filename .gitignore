@@ -1,5 +1,3 @@
 *.sublime*
 .idea
 .DS_Store
-wordpress
-wp-config.php
