@@ -28,7 +28,7 @@ function load_base(url) {
 				if( !jQuery.migrateReset && /^([1]\.([9]|[1-9][0-9])(\.?[1-9]?)+)|^([2-9])/.test(jQuery.fn.jquery ))async_load_js('//images.wsu.edu/javascripts/jquery-migrate-1.2.1.min.js');
 				scriptArray = [ // this is where we'd load the scriptArray list dynamicly.  Right now it's hard coded
 					{
-						src:"//repo.wsu.edu/jtrack/jquery.jTrack.0.2.1.js",
+						src:"//repo.wsu.edu/jtrack/jtrack.min.js",
 						exc:function(){
 							var url = document.getElementById('tracker_agent').src;
 							var GAcode = param("gacode", url );
